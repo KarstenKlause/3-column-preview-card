@@ -1,0 +1,111 @@
+body{
+  align-items: center;
+  background-color: hsl(0, 0%, 95%);
+  color: hsl(0, 0%, 95%);
+  display: flex;
+  font-size: 14px;
+  justify-content: center;
+  min-height: 100vh;
+}
+
+h5{
+  font-family: 'Big Shoulders Display', cursive;
+  font-size: 2rem;
+  padding-bottom: 10px;
+}
+
+p{
+  color: hsla(0, 0%, 100%, 0.75);
+  font-family: 'Lexend Deca', sans-serif;
+  font-size: 14px;
+  padding-bottom: 50px;
+}
+
+.btn-customize{
+  background-color: hsl(0, 0%, 95%);
+  border-color: hsl(0, 0%, 95%);
+  border-radius: 18px;
+  font-family: 'Lexend Deca', sans-serif;
+  font-size: 14px;
+  height: 35px;
+  margin-bottom: 10px;
+  width: 65%;
+}
+.btn-customize:hover{
+  background-color: transparent !important;
+  border-color: hsl(0, 0%, 95%) !important;
+}
+
+.card-group{
+  display: flex;
+  width: 700px;
+}
+
+.card-img-top{
+  width: 30%;
+  margin-bottom: 30px;
+}
+
+.col-md-4{
+  padding: 0;
+}
+
+.row{
+  width: 760px;
+}
+
+.sedans-car{
+  background-color: hsl(31, 77%, 52%);
+  border: 0;
+  border-radius: 10px 0 0 10px;
+  padding: 28px;
+}
+
+.sedans-car .btn-customize{
+  color: hsl(31, 77%, 52%);
+}
+
+.suv-car{
+  background-color: hsl(184, 100%, 22%);
+  border: 0;
+  border-radius: 0;
+  padding: 28px;
+}
+
+.suv-car .btn-customize{
+  color: hsl(184, 100%, 22%);
+}
+
+.luxury-car{
+  background-color: hsl(179, 100%, 13%);
+  border: 0;
+  border-radius: 0 10px 10px 0;
+  padding: 28px;
+}
+
+.luxury-car .btn-customize{
+  color: hsl(179, 100%, 13%);
+}
+
+@media(max-width: 767px){
+
+  body{
+    margin: 60px auto 60px;
+  }
+
+  p{
+    padding-bottom: 10px;
+  }
+
+  .sedans-car{
+    border-radius: 10px 10px 0 0px;
+  }
+
+  .luxury-car{
+    border-radius: 0 0 10px 10px;
+  }
+
+  .row{
+    width: 270px;
+  }
+}
